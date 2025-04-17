@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./header";
+@import "./mixin";
+@import "./projects";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
